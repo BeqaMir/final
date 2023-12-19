@@ -441,48 +441,48 @@
                 <div class="input-container">
                     <div class="input">
                         <div class="input-item item12">
-                            <form action="/login" method="POST">
+                            <form action="https://borjomi.loremipsum.ge/api/send-message" method="POST">
                                 <label for="Your Name*"></label>
                                     <input
                                         type="text"
-                                        placeholder="Your Name*"
-                                        id="Your Name*"
+                                        placeholder="YourName"
+                                        id="name"
                                         name="Your Name*"
                                         required
                                         /> 
                             </form>
                         </div>
                         <div class="input-item item22">
-                            <form action="/login" method="POST">
+                            <form action="https://borjomi.loremipsum.ge/api/send-message" method="POST">
                                 <label for="Email Address*"></label>
                                     <input
                                         type="mail"
-                                        placeholder="Email Address*"
-                                        id="EmailAddress"
+                                        placeholder="EmailAddress"
+                                        id="address"
                                         name="Email Address*"
                                         required
                                         />
                             </form>            
                         </div>
                         <div class="input-item item32">
-                            <form action="/login" method="POST">
+                            <form action="https://borjomi.loremipsum.ge/api/send-message" method="POST">
                                 <label for="Your Website*"></label>
                                     <input
                                         type="text"
-                                        placeholder="Your Website*"
-                                        id="Website"
+                                        placeholder="YourWebsite"
+                                        id="website"
                                         name="Your Website*"
                                         required
                                         /> 
                             </form>            
                         </div>
                         <div class="input-item item42">
-                            <form action="/login" method="POST">
+                            <form action="https://borjomi.loremipsum.ge/api/send-message" method="POST">
                                 <label for="Message*"></label>
                                     <input
                                         type="text"
-                                        placeholder="Message*"
-                                        id="Message"
+                                        placeholder="Message"
+                                        id="message"
                                         name="Message*"
                                         required
                                         /> 
@@ -695,7 +695,7 @@
         element.className = arr1.join(" ");
     }
 
-// script 3
+// script 5
 
 
     var url = "https://borjomi.loremipsum.ge/api/send-message";
@@ -711,11 +711,8 @@
         console.log(xhr.responseText);
     }};
 
-    xhr.send('{"Id": 78912, "Customer": "Jason Sweet"}');
-
-
-
-
     </script>
-</body>
-</html>
+
+    </body>
+    </html>
+   
