@@ -408,11 +408,7 @@ section .info .my-degree .skills {
 
 
 
-.input-container{
-    margin-top: 55px;
-    margin-bottom: 160px;
-    display: flex;
-}
+
 .section9{
     margin-top: 175px;
     margin-bottom: 155px;
@@ -532,6 +528,7 @@ section .info .my-degree .skills {
 }
 .top-footer button{
     margin: 0 auto;
+    margin-top: 30px;
 }
 .top-footer{
     text-align: center;
@@ -542,9 +539,31 @@ section .info .my-degree .skills {
     width: 100%;
     height: 100%;
 }
-.top-footer-text{
-    position: absolute;
-}
 .input-container{
-    position: absolute;
+    margin-top: 55px;
+    display: flex;
+    height: 180px;
 }
+.top-footer .top-footer-box{
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+.top-footer-box-div{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+.top-footer-text h2{
+    letter-spacing: 1.35px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 45px;
+}
+.top-footer-text p{
+    letter-spacing: 0.51px;
+    color: #5f5b5b;
+    opacity: 1;
+    font-size: 17px;
+}
+
