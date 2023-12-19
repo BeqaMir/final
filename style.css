@@ -86,8 +86,22 @@ body {
 
 .slider .text-wrap .bloks .block4 {
     position:absolute;
-    bottom:0;
+    bottom:50px;
     right:0;
+}
+.slider .text-wrap .bloks .block4 span{
+    color: #E93656;
+    font-size: 24px;
+}
+.slider .text-wrap .bloks .block4 p{
+    font-size: 24px;
+    color: #212121;
+}
+.slider .text-wrap .bloks .block4 .red-line{
+    width: 340px;
+    height: 6px;
+    background-color: #E93656;
+    margin-top: 20px;
 }
 
 .content {
@@ -128,12 +142,14 @@ section .info .my-info{
 section .info .my-info p{
     padding-top: 30px;
 }
-section .info .my-info button{
-    padding-top: 40px;
-    background-color: #E93656;
-    width: 152px;
+.section1-bth{
+    width: 150px;
     height: 50px;
+    background-color: #E93656 ;
     text-align: center;
+    letter-spacing: 1.2px;
+    color: black;
+    margin-top: 80px;
 }
 section .info .my-info a{
     text-align: center;
@@ -220,6 +236,7 @@ section .info .my-degree .skills {
 
 .card-item :hover {
     background: #15263e 0% 0% no-repeat padding-box;
+    color: white;
     opacity: 1;
 }
 .section3 .card-container .card-item p {
@@ -547,7 +564,7 @@ section .info .my-degree .skills {
 .input-container{
     margin-top: 55px;
     display: flex;
-    height: 180px;
+    /* height: 180px; */
 }
 .top-footer .top-footer-box{
     position: absolute;
