@@ -236,7 +236,6 @@ section .info .my-degree .skills {
 
 .card-item :hover {
     background: #15263e 0% 0% no-repeat padding-box;
-    color: white;
     opacity: 1;
 }
 .section3 .card-container .card-item p {
@@ -258,7 +257,7 @@ section .info .my-degree .skills {
 }
 
 .section3 .card-container .card-item .section3-text {
-    font-size: 0.875rem;
+    font-size: 10px;
     font-family: 'Muli Light';
     display: none;
     color: #15263e;
